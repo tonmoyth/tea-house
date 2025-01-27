@@ -26,9 +26,9 @@
 </head>
 <body>
     <header>
-          <div class="lg:flex lg:flex-row-reverse bannar  gap-x-2 md:px-40 md:py-14 px-8 py-6">
-            <div class="relative mb-8">
-                <img src="images/banner.png" alt="">
+          <div class="bannar  px-10 py-6  lg:flex lg:flex-row-reverse gap-x-2 lg:px-40 lg:py-14 2xl:max-w-screen-2xl">
+            <div class="relative mb-8  text-center lg:text-start">
+                <img class="w-full" src="images/banner.png" alt="">
                 <div class="w-2/5 flex shadow-lg items-center lg:absolute lg:top-80 lg:left-24 p-3 rounded-xl bg-white">
                     <div class="mr-2"><i class="fa-solid fa-star text-[#FF8938]"></i></div>
                     <div>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
               </div>
-            <div class="titile">
+            <div class="titile text-center lg:text-start">
                 <h1 class="text-3xl md:text-6xl font-bold">It's good <br>
                     tea time at The <br> Tea House</h1>
                     <br>
@@ -49,7 +49,39 @@
           </div>
     </header>
     <main>
+      <section class="featured-products px-8 py-6 2xl:2xl:max-w-screen-2xl">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold mb-3">Our Featured Products</h1>
+          
+          <p class="w-2/3 mx-auto text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <!-- card-container -->
+         <div class="card-container grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:px-40 lg:py-14 px-8 py-6">
+          <div class="card text-center  shadow-lg bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] px-13 py-7">
+            <img class="mx-auto mb-3" src="images/tea-1.png" alt="">
+            <h2 class="text-2xl font-bold mb-3">Milk Tea</h2>
+            <p>Creamer could be replaced</p>
+          </div>
 
+          <div class="card text-center  shadow-lg bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] px-13 py-7">
+            <img class="mx-auto mb-3" src="images/tea-2.png" alt="">
+            <h2 class="text-2xl font-bold mb-3">Black Tea</h2>
+            <p>Creamer could be replaced</p>
+          </div>
+
+          <div class="card text-center  shadow-lg bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] px-13 py-7">
+            <img class="mx-auto mb-3" src="images/tea-3.png" alt="">
+            <h2 class="text-2xl font-bold mb-3">Lemon Tea</h2>
+            <p>Creamer could be replaced</p>
+          </div>
+
+          <div class="card text-center  shadow-lg bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] px-13 py-7">
+            <img class="mx-auto mb-3" src="images/tea-4.png" alt="">
+            <h2 class="text-2xl font-bold mb-3">Green Tea</h2>
+            <p>Creamer could be replaced</p>
+          </div>
+         </div>
+      </section>
     </main>
     <footer>
 
